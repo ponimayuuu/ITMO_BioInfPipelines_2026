@@ -1,0 +1,2 @@
+FROM condaforge/miniforge3:23.11.0-0
+RUN conda install -y -c bioconda -c conda-forge fastqc=0.12.1 openjdk=17 && conda clean -afy

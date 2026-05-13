@@ -1,0 +1,5 @@
+name: trimmomatic
+channels: [conda-forge, bioconda]
+dependencies:
+  - bioconda::trimmomatic=0.39
+  - conda-forge::openjdk=17
