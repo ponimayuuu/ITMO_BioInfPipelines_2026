@@ -1,0 +1,2 @@
+FROM condaforge/miniforge3:23.11.0-0
+RUN conda install -y -c bioconda -c conda-forge spades=3.15.5 && conda clean -afy

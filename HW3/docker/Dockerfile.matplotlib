@@ -1,0 +1,2 @@
+FROM condaforge/miniforge3:23.11.0-0
+RUN conda install -y -c conda-forge python=3.10 matplotlib=3.8 numpy && conda clean -afy
